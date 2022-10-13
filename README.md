@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://olga-demina-frondmentor-advice.netlify.app/)
+- Live Site URL: [olga-demina-frondmentor-advice.netlify.app](https://olga-demina-frondmentor-advice.netlify.app/)
 
 ## My process
 
