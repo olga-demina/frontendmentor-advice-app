@@ -1,35 +1,43 @@
-# frontendmentor-advice-app
+# Frontend Mentor - Advice generator app solution
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Recommended IDE Setup
+## Table of contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
 
-## Customize configuration
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Overview
 
-## Project Setup
+### The challenge
 
-```sh
-npm install
-```
+Users should be able to:
 
-### Compile and Hot-Reload for Development
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Generate a new piece of advice by clicking the dice icon
 
-```sh
-npm run dev
-```
+### Screenshot
 
-### Compile and Minify for Production
+![](./screen.png)
 
-```sh
-npm run build
-```
+### Links
 
-### Lint with [ESLint](https://eslint.org/)
+- Live Site URL: [Add live site URL here](https://olga-demina-frondmentor-advice.netlify.app/)
 
-```sh
-npm run lint
-```
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [Vue3](https://vuejs.org/) - JS Framework
+
