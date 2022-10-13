@@ -19,19 +19,25 @@ async function fetchRandomAdvice() {
 
   <main>
     <div class="container">
-      <div class="card">
+      <div class="advice">
         <h3 class="advice-number">
           Advice #{{state.adviceNumber}}
         </h3>
-        <p class="advice">"{{state.adviceText}}"</p>
+        <p class="advice-text">"{{state.adviceText}}"</p>
 
-        <button @click="fetchRandomAdvice">Generate</button>
+        <picture>
+          <source srcset="@/assets/images/pattern-divider-desktop.svg" media="(min-width: 768px)">
+          <img class="advice-divider sr-hidden" src="@/assets/images/pattern-divider-mobile.svg" alt="">
+        </picture>
+
+        <button class="btn-generate" @click="fetchRandomAdvice">
+          <span class="sr-only">Generate new advice</span>
+          <img src="@/assets/images/icon-dice.svg" alt="Dice">
+        </button>
       </div>
     </div>
   </main>
 
 </template>
+  
 
-<style scoped>
-
-</style>
